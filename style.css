@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+  --primary-dark-violet: hsl(257, 27%, 26%);
+  --secondary-red: hsl(0, 87%, 67%);
+  --neutral-gray: hsl(0, 0%, 75%);
+  --neutral-Grayish-violet: hsl(257, 7%, 63%);
+  --neutral-very-dark-blue: hsl(255, 11%, 22%);
+  --neutral-dark-violet: hsl(260, 8%, 14%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100vw;
+}
+
+nav {
+  margin: 2.4em 1.4em 0 1.4em;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+a.logo img {
+  width: 7.2em;
+}
+
+div.links,
+div.login {
+  display: none;
+}
+
+div.humberger div {
+  background-color: var(--neutral-Grayish-violet);
+  height: 0.2em;
+  width: 1.4em;
+  margin: 0.35em 2.8em;
+  border-radius: 18%;
+}
+
+div.illustartion img {
+  width: 10em;
+  height: auto;
+}
+
+div.humberger-menu {
+  margin: 1em 1.4em;
+  background-color: var(--primary-dark-violet);
+  border-radius: 0.6em;
+  padding: 1.4em 0;
+  z-index: 10;
+  opacity: 0;
+  display: none;
+}
+
+div.humberger-menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.85em 0;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+div.humberger-menu hr {
+  margin: 1em 1.5em;
+  border: none;
+  background-color: rgb(84, 74, 109);
+  height: 1px;
+}
+
+div.humberger-menu a.hum-sign-in {
+  background-color: var(--primary-cyan);
+  margin: 0.5em 1.5em 1.3em 1.5em;
+  border-radius: 3em;
+  padding: 0.5em 0;
+}
