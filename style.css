@@ -105,6 +105,10 @@ div.illustartion img {
   margin-left: 1.5em;
 }
 
+div.get-started {
+  text-align: center;
+}
+
 div.get-started h1 {
   text-align: center;
   font-size: 2.6em;
@@ -120,4 +124,16 @@ div.get-started p {
   font-size: 1.15em;
   text-align: center;
   line-height: 1.6em;
+}
+
+div.get-started a {
+  color: white;
+  background-color: var(--primary-cyan);
+  text-align: center;
+  margin: 1.6em 4.8em;
+  padding: 0.7em 0;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 2em;
 }
