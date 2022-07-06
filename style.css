@@ -28,6 +28,7 @@ ul {
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 header {
@@ -139,7 +140,8 @@ div.get-started a {
 }
 
 section.input {
-  background:no-repeat right top url("/My-Project/images/bg-shorten-mobile.svg");
+  background: no-repeat right top
+    url("/My-Project/images/bg-shorten-mobile.svg");
   background-color: var(--primary-dark-violet);
   margin: 3.6em 1.5em;
   padding: 1.5em 1.5em;
@@ -155,7 +157,7 @@ form input {
   height: 3.5em;
   border-radius: 0.3em;
   border: none;
-  padding:0.6em 1.5em 0 1.2em;
+  padding: 0.6em 1.5em 0 1.2em;
 }
 
 form input::placeholder {
@@ -174,4 +176,66 @@ form button {
   color: white;
   font-weight: 700;
   font-size: 1.2em;
+}
+
+div.background {
+  position: absolute;
+  background-color: rgb(241, 241, 241);
+  height: calc(100% - 56em);
+  width: 100vw;
+  top: 56em;
+  z-index: -5;
+}
+
+section.features-title {
+  margin: 5.5em 0 0 0;
+}
+
+section.features-title h2 {
+  color: var(--neutral-dark-violet);
+  text-align: center;
+  font-size: 1.7em;
+}
+
+section.features-title p {
+  color: var(--neutral-Grayish-violet);
+  text-align: center;
+  margin: 1em 1em;
+  line-height: 1.7em;
+}
+
+section.features {
+  text-align: center;
+}
+
+section.features .feature {
+  margin: 5.5em 1.5em;
+  position: relative;
+  padding-top: 0;
+}
+
+section.features div.image {
+  background-color: var(--primary-dark-violet);
+  right: auto;
+  position: absolute;
+  margin: 0 8em;
+  padding: 1.3em 1.5em;
+  border-radius: 50%;
+  top: -2.5em;
+  /* z-index: 2; */
+}
+
+
+div.feature div.detailes {
+  background-color: white;
+  padding: 5.5em 2em 2.5em 2em;
+  border-radius: 0.3em;
+  font-size: 0.9em;
+}
+
+div.detailes p {
+  color: var(--neutral-Grayish-violet);
+  font-size: 1.05em;
+  margin-top: 1.5em;
+  line-height: 1.7em;
 }
