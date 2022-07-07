@@ -16,6 +16,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -57,6 +62,19 @@ div.humberger div {
   width: 1.4em;
   margin: 0.35em 0em;
   border-radius: 18%;
+  transition: all 0.5s;
+}
+
+.first-active {
+  transform: rotate(45deg) translateY(0.75em);
+}
+
+.second-active {
+  opacity: 0;
+}
+
+.third-active {
+  transform: rotate(-45deg) translateY(-0.75em);
 }
 
 div.humberger-menu {
@@ -64,9 +82,11 @@ div.humberger-menu {
   background-color: var(--primary-dark-violet);
   border-radius: 0.6em;
   padding: 1.4em 0;
-  z-index: 10;
+  z-index: -10;
+  width: calc(100vw - 2.8em);
   opacity: 0;
-  display: none;
+  position: absolute;
+  transition: opacity 0.8s;
 }
 
 div.humberger-menu a {
@@ -218,7 +238,6 @@ section.features div.image {
   background-color: var(--primary-dark-violet);
   right: auto;
   position: absolute;
-  /* margin: 0 8em; */
   padding: 1.3em 1.5em;
   border-radius: 50%;
   top: -2.5em;
