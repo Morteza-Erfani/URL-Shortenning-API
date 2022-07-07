@@ -8,6 +8,7 @@
   --neutral-Grayish-violet: hsl(257, 7%, 63%);
   --neutral-very-dark-blue: hsl(255, 11%, 22%);
   --neutral-dark-violet: hsl(260, 8%, 14%);
+  --placeholder: hsl(257, 7%, 63%);
 }
 
 * {
@@ -16,7 +17,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -182,9 +184,17 @@ form input {
 
 form input::placeholder {
   font-weight: 400;
-  color: var(--neutral-Grayish-violet);
+  color: var(--placeholder);
   font-size: 1.2em;
   font-family: "Poppins", sans-serif;
+}
+
+p.err {
+  color: red;
+  font-size: small;
+  font-style: italic;
+  font-weight: 400;
+  visibility: hidden;
 }
 
 form button {
@@ -196,6 +206,50 @@ form button {
   color: white;
   font-weight: 700;
   font-size: 1.2em;
+}
+
+section.answers {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+section.answers div{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.4em;
+  padding: 0.5em 0;
+  margin: 1.5em 1.5em;
+}
+
+.answers p {
+  margin: 0 1em 0.5em 1em;
+  text-align: left;
+}
+
+.answers hr {
+  border: none;
+  background-color: rgb(218, 219, 226);
+  height: 1px;
+}
+
+.answers a {
+  display: block;
+  text-align: left;
+  color: var(--primary-cyan);
+  margin: 0.5em 1em 0;
+}
+
+.answers button {
+  color: white;
+  background-color: var(--primary-cyan);
+  border: none;
+  margin: 0.5em 0;
+  font-size: 1.3em;
+  font-weight: 700;
+  padding: 0.4em 6em;
+  border-radius: 0.3em;
 }
 
 div.background {
