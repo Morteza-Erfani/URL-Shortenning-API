@@ -4,7 +4,7 @@
       url("/My-Project/images/bg-shorten-desktop.svg");
     background-color: var(--primary-dark-violet);
     margin: 3.6em 10.5em;
-    padding: 1.5em 3.5em;
+    padding: 1.4em 3.5em;
   }
 
   p.err{
@@ -18,10 +18,12 @@
   }
 
   form input {
-    margin-top: 2em;
-    height: 4.5em;
+    margin-top: 1.2em;
+    height: 2.6em;
     border-radius: 0.8em;
     width: 55vw;
+    font-size: 1.5em;
+    padding: 0 1.5em 0 1.2em;
   }
 
   form button {

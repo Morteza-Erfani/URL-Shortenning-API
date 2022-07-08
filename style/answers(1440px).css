@@ -5,7 +5,7 @@
 
   section.answers div {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 50% auto auto;
     justify-content: space-between;
     padding: 1em 0;
   }
