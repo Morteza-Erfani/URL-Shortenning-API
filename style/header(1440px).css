@@ -1,0 +1,65 @@
+@media(min-width: 376px) {
+  div.humberger {
+    display: none;
+  }
+
+  div.links,
+  div.login {
+    display: block;
+  }
+  
+  header {
+    padding: 1em 9em;
+  }
+
+  nav {
+    width: calc(100vw - 20.8em);
+  }
+
+  a.logo img {
+    width: 8.5vw;
+  }
+
+  div.link {
+    display: flex;
+    align-items: center;
+  }
+
+  div.links {
+    margin-left: 2.7em;
+    margin-bottom: 0.7em;
+  }
+
+  div.links ul {
+    display: flex;
+  }
+
+  ul.header-list li {
+    margin-right: 2em;
+    font-weight: 700;
+  }
+
+  ul.header-list li a {
+    color: var(--neutral-Grayish-violet);
+  }
+
+  div.login ul {
+    display: flex;
+  }
+
+  ul.login-list li {
+    margin-left: 2em;
+    font-weight: 700;
+  }
+
+  ul.login-list a {
+    color: var(--neutral-Grayish-violet);
+  }
+
+  li.sign-up a {
+    color: white;
+    background-color: var(--primary-cyan);
+    padding: 0.5em 1.4em;
+    border-radius: 2em;
+  }
+}

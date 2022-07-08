@@ -36,6 +36,12 @@ body {
   position: relative;
 }
 
+@media(min-width: 376px) {
+  body {
+    /* padding: 0 15em; */
+  }
+}
+
 
 
 

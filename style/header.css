@@ -17,3 +17,25 @@ div.links,
 div.login {
   display: none;
 }
+
+div.humberger div {
+  background-color: var(--neutral-Grayish-violet);
+  height: 0.2em;
+  width: 1.4em;
+  margin: 0.35em 0em;
+  border-radius: 18%;
+  transition: all 0.5s;
+}
+
+.first-active {
+  transform: rotate(45deg) translateY(0.75em);
+}
+
+.second-active {
+  opacity: 0;
+}
+
+.third-active {
+  transform: rotate(-45deg) translateY(-0.75em);
+}
+

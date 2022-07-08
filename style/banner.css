@@ -1,10 +1,3 @@
-:root {
-  --primary-cyan: hsl(180, 66%, 49%);
-  --neutral-Grayish-violet: hsl(257, 7%, 63%);
-  --neutral-very-dark-blue: hsl(255, 11%, 22%);
-
-}
-
 section.banner {
   margin: 2em 0 0 0;
   display: flex;

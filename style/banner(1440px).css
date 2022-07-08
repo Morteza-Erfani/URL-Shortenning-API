@@ -1,0 +1,33 @@
+@media (min-width: 376px) {
+  section.banner {
+    flex-direction: row;
+    padding: 0 0 0 10em;
+  }
+
+  div.get-started h1 {
+    text-align: left;
+    font-size: 4.8em;
+    margin-top: 1em;
+  }
+
+  div.get-started p {
+    margin: 0.2em 0.8em 0 0.4em;
+    font-size: 1.4em;
+    text-align: left;
+  }
+
+  div.get-started a {
+    margin: 1.6em 21.5em 0 0;
+  }
+
+  section.banner div.illustartion {
+    width: 80vw;
+    overflow: hidden;
+  }
+
+  div.illustartion img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+}
