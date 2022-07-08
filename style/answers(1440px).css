@@ -29,4 +29,8 @@
     padding: 0.4em 0;
     width: 5.3em;
   }
+
+  .answers button:hover {
+    background-color: var(--neutral-Grayish-violet);
+  }
 }

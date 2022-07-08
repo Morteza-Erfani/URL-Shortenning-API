@@ -37,6 +37,6 @@
   }
 
   form input::placeholder {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }

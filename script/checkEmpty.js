@@ -10,5 +10,6 @@ document.querySelector("form button").addEventListener("click", (event) => {
     inputValue.style.border = "none";
     inputValue.style.setProperty("--placeholder", "--placeholder");
     shorter(inputValue.value);
+    inputValue.value = ''
   }
 });
