@@ -1,0 +1,19 @@
+header {
+  width: 100vw;
+}
+
+nav {
+  margin: 2.4em 1.4em 0 1.4em;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100vw - 2.8em);
+}
+
+a.logo img {
+  width: 33vw;
+}
+
+div.links,
+div.login {
+  display: none;
+}

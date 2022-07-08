@@ -1,0 +1,30 @@
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+  --primary-dark-violet: hsl(257, 27%, 26%);
+}
+
+section.boost {
+  background: no-repeat url(/My-Project/images/bg-boost-mobile.svg);
+  background-color: var(--primary-dark-violet);
+  height: 18em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.boost h2 {
+  color: white;
+  padding-top: 3.5em;
+  font-weight: 700;
+  font-size: 1.7em;
+}
+
+section.boost a {
+  color: white;
+  background-color: var(--primary-cyan);
+  padding: 0.7em 1.5em;
+  font-size: 1.2em;
+  margin: 1em 4.5em;
+  display: block;
+  border-radius: 2em;
+}

@@ -1,0 +1,61 @@
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+  --primary-dark-violet: hsl(257, 27%, 26%);
+  --neutral-Grayish-violet: hsl(257, 7%, 63%);
+}
+
+div.humberger div {
+  background-color: var(--neutral-Grayish-violet);
+  height: 0.2em;
+  width: 1.4em;
+  margin: 0.35em 0em;
+  border-radius: 18%;
+  transition: all 0.5s;
+}
+
+.first-active {
+  transform: rotate(45deg) translateY(0.75em);
+}
+
+.second-active {
+  opacity: 0;
+}
+
+.third-active {
+  transform: rotate(-45deg) translateY(-0.75em);
+}
+
+div.humberger-menu {
+  margin: 1em 1.4em;
+  background-color: var(--primary-dark-violet);
+  border-radius: 0.6em;
+  padding: 1.4em 0;
+  z-index: -10;
+  width: calc(100vw - 2.8em);
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.8s;
+}
+
+div.humberger-menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.85em 0;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+div.humberger-menu hr {
+  margin: 1em 1.5em;
+  border: none;
+  background-color: rgb(84, 74, 109);
+  height: 1px;
+}
+
+div.humberger-menu a.hum-sign-in {
+  background-color: var(--primary-cyan);
+  margin: 0.5em 1.5em 1.3em 1.5em;
+  border-radius: 3em;
+  padding: 0.5em 0;
+}

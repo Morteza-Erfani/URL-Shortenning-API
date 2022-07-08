@@ -1,0 +1,37 @@
+:root {
+  --neutral-Grayish-violet: hsl(257, 7%, 63%);
+  --neutral-dark-violet: hsl(260, 8%, 14%);
+}
+
+footer {
+  background-color: var(--neutral-dark-violet);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+div.footer-logo {
+  filter: brightness(100);
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+li.head {
+  margin: 2em 0 1.2em 0;
+}
+
+div.footer-links a {
+  color: var(--neutral-Grayish-violet);
+  line-height: 2em;
+}
+
+div.social {
+  margin: 2.5em 0 0 0;
+}
+
+div.social a {
+  width: 2.7em;
+  display: inline-block;
+}

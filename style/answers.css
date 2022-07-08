@@ -1,0 +1,47 @@
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+}
+
+section.answers {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+section.answers div{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.4em;
+  padding: 0.5em 0;
+  margin: 1.5em 1.5em;
+}
+
+.answers p {
+  margin: 0 1em 0.5em 1em;
+  text-align: left;
+}
+
+.answers hr {
+  border: none;
+  background-color: rgb(218, 219, 226);
+  height: 1px;
+}
+
+.answers a {
+  display: block;
+  text-align: left;
+  color: var(--primary-cyan);
+  margin: 0.5em 1em 0;
+}
+
+.answers button {
+  color: white;
+  background-color: var(--primary-cyan);
+  border: none;
+  margin: 0.5em 0;
+  font-size: 1.3em;
+  font-weight: 700;
+  padding: 0.4em 6em;
+  border-radius: 0.3em;
+}

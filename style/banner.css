@@ -1,0 +1,53 @@
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+  --neutral-Grayish-violet: hsl(257, 7%, 63%);
+  --neutral-very-dark-blue: hsl(255, 11%, 22%);
+
+}
+
+section.banner {
+  margin: 2em 0 0 0;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100vw;
+  overflow: hidden;
+}
+
+div.illustartion img {
+  width: auto;
+  height: 52vh;
+  margin-left: 1.5em;
+}
+
+div.get-started {
+  text-align: center;
+}
+
+div.get-started h1 {
+  text-align: center;
+  font-size: 2.6em;
+  margin: 0.6em 0 0 0.1em;
+  color: var(--neutral-very-dark-blue);
+  line-height: 1.2em;
+  letter-spacing: -1px;
+}
+
+div.get-started p {
+  color: var(--neutral-Grayish-violet);
+  margin: 0.7em 0.8em 0 1.1em;
+  font-size: 1.15em;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+div.get-started a {
+  color: white;
+  background-color: var(--primary-cyan);
+  text-align: center;
+  margin: 1.6em 4.8em;
+  padding: 0.7em 0;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 2em;
+}
