@@ -1,13 +1,12 @@
 @media (min-width: 376px) {
   section.input {
-    background: no-repeat 
-      url("/My-Project/images/bg-shorten-desktop.svg");
+    background: no-repeat url("/My-Project/images/bg-shorten-desktop.svg");
     background-color: var(--primary-dark-violet);
     margin: 3.6em 10.5em;
     padding: 1.4em 3.5em;
   }
 
-  p.err{
+  p.err {
     margin-top: 0.5em;
     font-size: medium;
   }
@@ -38,6 +37,6 @@
   }
 
   form input::placeholder {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }

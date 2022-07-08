@@ -20,7 +20,3 @@ function openHum() {
     open = 0;
   }
 }
-
-
-
-

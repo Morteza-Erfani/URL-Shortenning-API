@@ -1,9 +1,9 @@
 div.background {
   position: absolute;
   background-color: rgb(241, 241, 241);
-  height: calc(100% - 56em);
+  height: calc(100% - 63.5em);
   width: 100vw;
-  top: 56em;
+  top: 63.5em;
   z-index: -5;
 }
 
