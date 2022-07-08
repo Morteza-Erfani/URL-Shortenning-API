@@ -1,0 +1,32 @@
+@media (min-width: 376px) {
+  section.answers {
+    margin: 0 9em;
+  }
+
+  section.answers div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 1em 0;
+  }
+
+  .answers hr {
+    display: none;
+  }
+
+  .answers p {
+    margin: 0 1em 0 2em;
+    font-size: 1.2em;
+  }
+
+  .answers a {
+    margin: 0.5em 1em 0;
+    font-size: 1.2em;
+  }
+
+  .answers button {
+    margin: 0 1em 0 0;
+    padding: 0.4em 0;
+    width: 5.3em;
+  }
+}

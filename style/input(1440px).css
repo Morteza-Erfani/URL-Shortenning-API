@@ -1,0 +1,37 @@
+@media (min-width: 376px) {
+  section.input {
+    background: no-repeat 
+      url("/My-Project/images/bg-shorten-desktop.svg");
+    background-color: var(--primary-dark-violet);
+    margin: 3.6em 10.5em;
+    padding: 1.5em 3.5em;
+  }
+
+  p.err{
+    margin-top: 0.5em;
+    font-size: medium;
+  }
+
+  section.input form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  form input {
+    margin-top: 2em;
+    height: 4.5em;
+    border-radius: 0.8em;
+    width: 55vw;
+  }
+
+  form button {
+    width: 20vw;
+    height: 3.3em;
+    margin: -0.3em 0 0 1em;
+    border-radius: 0.8em;
+  }
+
+  form input::placeholder {
+    font-size: 1.5em;
+  }
+}

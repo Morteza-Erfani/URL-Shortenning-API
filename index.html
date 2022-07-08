@@ -22,8 +22,11 @@
     <link rel="stylesheet" href="/My-Project/style/banner.css" />
     <link rel="stylesheet" href="/My-Project/style/banner(1440px).css" />
     <link rel="stylesheet" href="/My-Project/style/input.css" />
+    <link rel="stylesheet" href="/My-Project/style/input(1440px).css" />
     <link rel="stylesheet" href="/My-Project/style/answers.css" />
+    <link rel="stylesheet" href="/My-Project/style/answers(1440px).css" />
     <link rel="stylesheet" href="/My-Project/style/features.css" />
+    <link rel="stylesheet" href="/My-Project/style/features(1440px).css" />
     <link rel="stylesheet" href="/My-Project/style/boost.css" />
     <link rel="stylesheet" href="/My-Project/style/footer.css" />
     <title>URL Shortening API</title>
@@ -99,8 +102,10 @@
 
     <section class="input">
       <form action="#">
-        <input type="text" placeholder="Shorten a link here..." />
-        <p class="err">Please add a link</p>
+        <div class="long">
+          <input type="text" placeholder="Shorten a link here..." />
+          <p class="err">Please add a link</p>
+        </div>
         <button type="submit">Shorten It!</button>
       </form>
     </section>
@@ -126,7 +131,7 @@
 
     <section class="features">
       <div class="line"></div>
-      <div class="feature">
+      <div class="feature first-feature">
         <div class="image">
           <img
             src="/My-Project/images/icon-brand-recognition.svg"
@@ -142,7 +147,7 @@
         </div>
       </div>
 
-      <div class="feature">
+      <div class="feature second-feature">
         <div class="image">
           <img
             src="/My-Project/images/icon-detailed-records.svg"
@@ -158,7 +163,7 @@
         </div>
       </div>
 
-      <div class="feature">
+      <div class="feature third-feature">
         <div class="image">
           <img
             src="/My-Project/images/icon-fully-customizable.svg"
