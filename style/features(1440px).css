@@ -42,4 +42,13 @@
     left: auto;
     margin-top: -3em;
   }
+
+  div.footer-links a:hover {
+    color: var(--primary-cyan);
+  }
+
+  div.social img:hover {
+    filter: invert(80%) sepia(78%) saturate(1010%) hue-rotate(130deg)
+      brightness(89%) contrast(80%);
+  }
 }

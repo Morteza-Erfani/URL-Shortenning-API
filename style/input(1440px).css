@@ -33,6 +33,10 @@
     border-radius: 0.8em;
   }
 
+  form button:hover {
+    background-color: var(--neutral-Grayish-violet);
+  }
+
   form input::placeholder {
     font-size: 1.5em;
   }

@@ -20,6 +20,10 @@
     margin: 1.6em 21.5em 0 0;
   }
 
+  div.get-started a:hover {
+    background-color: var(--neutral-Grayish-violet);
+  }
+
   section.banner div.illustartion {
     width: 80vw;
     overflow: hidden;

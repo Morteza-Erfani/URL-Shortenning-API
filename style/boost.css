@@ -40,4 +40,8 @@ section.boost a {
     font-weight: 700;
     margin: 1em 32.4em;
   }
+
+  section.boost a:hover {
+    background-color: var(--neutral-Grayish-violet);
+  }
 }

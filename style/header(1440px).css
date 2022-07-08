@@ -1,4 +1,4 @@
-@media(min-width: 376px) {
+@media (min-width: 376px) {
   div.humberger {
     display: none;
   }
@@ -7,7 +7,7 @@
   div.login {
     display: block;
   }
-  
+
   header {
     padding: 1em 9em;
   }
@@ -41,6 +41,15 @@
 
   ul.header-list li a {
     color: var(--neutral-Grayish-violet);
+  }
+
+  ul.header-list li a:hover,
+  ul.login-list .login-nav a:hover {
+    color: var(--primary-dark-violet);
+  }
+
+  li.sign-up a:hover {
+    background-color: var(--neutral-Grayish-violet);
   }
 
   div.login ul {
