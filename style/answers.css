@@ -16,6 +16,7 @@ section.answers div {
 .answers p {
   margin: 0 1em 0.5em 1em;
   text-align: left;
+  overflow: auto;
 }
 
 .answers hr {
